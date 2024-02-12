@@ -48,7 +48,7 @@ Normalization is crucial for ensuring that features with different scales do not
 1. Imputation: Missing values in 'State', 'Year', 'Make', 'Model', 'Color', 'Driver.City', and 'DL.State' were addressed using random sampling and median imputation.
 
 2. Encoding:
-   - Binary Encoding: Yes/No features will be converted to binary representations (0 or 1).
+   - Binary Encoding: Yes/No features will be converted to binary representations (0 or 1) This includes things such as driver being male/female, whether or not there was a personal injury, and whether or not there was property damage, to name a few.
    - One-Hot Encoding: Non-comparable categorical features will undergo one-hot encoding.
 
 3. Normalization: Numerical features will be normalized to a standard range for optimal model performance.

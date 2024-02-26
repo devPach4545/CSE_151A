@@ -55,3 +55,22 @@ Normalization is crucial for ensuring that features with different scales do not
 
 By completing these preprocessing steps, the dataset will be ready for training machine learning models, ensuring that it is appropriately formatted and scaled for accurate and reliable predictions.
 
+### What are the next 2 models you are thinking of and why?
+
+#### 1. Neural Networks:
+
+Applicability to the Dataset:
+A Neural Network can be advantageous in capturing complex relationships within our dataset. It can handle non-linearities in the data and adapt to the interactions between features such as description of violation, seatbelt usage, injury occurrence, vehicle details, state, year, make, gender, etc.
+The flexibility of neural networks allows it to model intricate patterns, making it suitable for a diverse dataset like traffic violations.
+
+
+#### 2. Decision Trees:
+
+Applicability to the Dataset:
+Decision Trees are inherently interpretable, which can be valuable in understanding and explaining the decisions made by the model. This is particularly important in domains like traffic violations where transparency is crucial.
+Decision Trees can handle both categorical and numerical features, making them suitable for datasets with diverse types of information.
+
+In summary, a Neural Network can capture complex relationships in our dataset, while Decision Trees, with their interpretability and ability to handle diverse features, could provide insights into the factors influencing traffic violations. Experimenting with both models and fine-tuning their parameters will help determine the most effective approach for your task.
+
+
+

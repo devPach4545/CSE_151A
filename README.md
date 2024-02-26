@@ -55,6 +55,10 @@ Normalization is crucial for ensuring that features with different scales do not
 
 By completing these preprocessing steps, the dataset will be ready for training machine learning models, ensuring that it is appropriately formatted and scaled for accurate and reliable predictions.
 
+### Where does your model fit in the fitting graph
+
+From the classification report for both training and testing data, the precision and recall for predicting class 1 is low for training and testing data. We chose to focus on the precision and recall for class 1 (person injured) as the metrics for measurement to avoid bias because the dataset has a lot of instances for class 0 but not a lot for class 1. According to the report, the error is similarly high for both testing and training test, indicating relatively poor performance. So the  model will towards to the left in the underfitting part of the fitting graph.
+
 ### What are the next 2 models you are thinking of and why?
 
 #### 1. Neural Networks:

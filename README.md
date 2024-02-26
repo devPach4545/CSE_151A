@@ -59,6 +59,9 @@ By completing these preprocessing steps, the dataset will be ready for training 
 
 From the classification report for both training and testing data, the precision and recall for predicting class 1 is low for training and testing data. We chose to focus on the precision and recall for class 1 (person injured) as the metrics for measurement to avoid bias because the dataset has a lot of instances for class 0 but not a lot for class 1. According to the report, the error is similarly high for both testing and training test, indicating relatively poor performance. So the  model will towards to the left in the underfitting part of the fitting graph.
 
+![image](https://github.com/devPach4545/CSE_151A/assets/146885173/10a80f10-12f3-4553-a83d-bee3e13b5487)
+
+
 ### What are the next 2 models you are thinking of and why?
 
 #### 1. Neural Networks:

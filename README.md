@@ -68,7 +68,6 @@ Decision Trees are inherently interpretable, which can be valuable in understand
 Employing ensemble methods, such as Random Forests or XGBoost, with Decision Trees enhances predictive performance. By building multiple trees and combining their predictions, these ensemble methods provide robustness against overfitting and improve overall model accuracy.
 Decision Trees are valuable for exploratory analysis, aiding in the identification of the most influential features in predicting personal injuries. This feature importance analysis can guide interventions and policies, focusing efforts on mitigating the key factors contributing to injury outcomes.
 
-In summary, a Neural Network can capture complex relationships in our dataset, while Decision Trees, with their interpretability and ability to handle diverse features, could provide insights into the factors influencing traffic violations. Experimenting with both models and fine-tuning their parameters will help determine the most effective approach for your task.
 
 
 

@@ -76,7 +76,7 @@ Employing ensemble methods, such as Random Forests or XGBoost, with Decision Tre
 Decision Trees are valuable for exploratory analysis, aiding in the identification of the most influential features in predicting personal injuries. This feature importance analysis can guide interventions and policies, focusing efforts on mitigating the key factors contributing to injury outcomes.
 
 
-###Conclusion section: What is the conclusion of your 1st model? What can be done to possibly improve it?
+### Conclusion section: What is the conclusion of your 1st model? What can be done to possibly improve it?
 
 After training a logistic regression model on our dataset, we've concluded that it's a fundamental step towards understanding its predictive capabilities. Logistic regression is well-suited for binary classification problems, but to truly bring out its effectiveness, we applied key performance metrics such as accuracy, precision, recall, and the F1 score to the predictions made on the test set. These metrics gave us a comprehensive view of how accurately the model predicts outcomes, balancing the rate of true positives against false positives and negatives. However, we realize that we did not create a confusion matrix which would make this all so much easier. This is a crucial next step, to understand the types of errors our model might be making. Additionally according to the report, both the training and testing sets exhibit similarly high error rates, signaling relatively weak performance. This suggests that the model leans towards the left side, or the underfitting portion, of the model fitting graph. To improve this we could make the model more complex by increasing the model complexity such as utilizing neural networks.
 

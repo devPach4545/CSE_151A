@@ -82,6 +82,11 @@ After training a logistic regression model on our dataset, we've concluded that 
 
 To enhance the model's performance, we could consider several strategies. Firstly, implementing cross-validation, like K-Fold or Repeated K-Fold, could provide a more robust assessment of the model's performance by training it on different subsets of the data. This would help us understand how well the model generalizes to new, unseen data. Secondly, tuning the hyperparameters of the logistic regression model could significantly improve its performance. Lastly, if logistic regression seems too simplistic for our dataset's complexity, we are open to exploring more advanced models like decision trees, random forests, or even neural networks, which could potentially offer better accuracy and insights.
 
+### Conclusion section (Milestone 4 and model 2): What is the conclusion of your 2nd model? What can be done to possibly improve it? How did it perform to your first and why?
+- After running neural network we got the accuracy of 0.98, precisionn of 0.531, and, recall of 0.225. It seems that our model has a lot of true negatives (13869) with compare to true positives only 34. Neural network did not provide a significant improvemnet over logistic regression because our model 1 got the accuracy of 0.98 as well. Both of our models identified same number of true negatives. We are thinking about oversampling the data to get rid of class imbalance.
+
+### Our Third model:-
+- First, we thought we would run Decision trees, but after carefull consideration from all group members, we have decided to go with SVM. Since, they are good for binary classification and we also have binary classification problem. 
 
 
 

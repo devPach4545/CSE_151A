@@ -2,7 +2,7 @@
 
 ## Dataset link: https://www.kaggle.com/datasets/nikhil1e9/traffic-violations
 
-## Jupyter Notebook link - https://colab.research.google.com/github/devPach4545/CSE_151A/blob/main/CSE_151A_Project.ipynb
+## Jupyter Notebook link - [https://colab.research.google.com/github/devPach4545/CSE_151A/blob/main/CSE_151A_Project.ipynb](https://colab.research.google.com/github/devPach4545/CSE_151A/blob/main/CSE_151A_Project.ipynb#scrollTo=cbaShJfW5Iwj)
 
 ## Group Members 
 Dhaivat Pachchigar

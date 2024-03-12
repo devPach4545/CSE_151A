@@ -203,4 +203,15 @@ The accuracy of the training data for this model is 0.81
 
 The model will lean toward the underfitting in the fitting graph because the precision/recall for the training and testing data is too low.
 
+# Discussion:
+## Model 1: Logistic Regression
+- The reason we chose this model is because during the first couple of weeks, we learned that logistic regression was the best model we covered for binary classification due to its ability to output the probability of an outcome. We are also trying to predict if there was an injury in an accident or not. Therefore, logistic regression would predict the probability of someone getting injured. The second reason we chose logistic regression is because it was fast on larger datasets. However, from the results above, we can conclude that our logistic regression model is heavily biased towards the 'no injury' class. This happened because we did not know about oversampling at that time, and we did not realize that we had a data imbalance. There are just very few observations that resulted in injury.
+
+## Model 2: Neural Networks
+- Neural networks are like a god-given gift to machine learning engineers. They are best for almost any type of supervised learning. They can learn and predict anything. Accuracy may differ, but we decided to go with neural networks because we thought it was a better model over logistic regression. They can predict multiclass labels as well, and we thought that our first model had suspiciously high accuracy, so using neural nets would give us a more realistic answer. But, to our dismay, the neural network also gave us a very high accuracy, and we concluded that we would have to design an intricate neural network for a realistic result.
+
+- First, we ran a neural network without K-fold cross-validation. To clear the bias, we tried to do K-fold cross-validation, but that did not help much either. Our accuracy increased only a little bit (0.006) after K-fold cross-validation. We spotted that the main issue was due to class imbalance. And, we learned that oversampling is a method to address imbalanced classes. In our case, persons with injuries were way fewer than people without injuries. After oversampling, we were able to balance both of our classes.
+
+## Model 3: Linear SVM
+- Initially, we thought decision trees would be better, but after learning about SVMs, we realized that SVMs are better for binary classification because there is a hyperplane that can distinguish two classes. The more the distance of the support vector from the planes, the better our model performs. Our training accuracy for the training set was 0.87, and the testing accuracy was 0.81. These were lower than our two previous models, but the precision, recall, and F1-score were better than the previous two models, indicating that our final and third model was more believable compared to models one and two.
 

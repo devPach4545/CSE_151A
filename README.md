@@ -2,7 +2,7 @@
 
 ## Dataset link: https://www.kaggle.com/datasets/nikhil1e9/traffic-violations
 
-## Jupyter Notebook link - [https://colab.research.google.com/drive/158S7DPr74nzn6cxtxhOb1CG0ZGZ0D4N_?usp=sharing](https://colab.research.google.com/github/devPach4545/CSE_151A/blob/main/CSE_151A_Project.ipynb#scrollTo=hjlk0wceV7xT)
+## Jupyter Notebook link - [https://colab.research.google.com/github/devPach4545/CSE_151A/blob/main/CSE_151A_Project.ipynb](https://colab.research.google.com/github/devPach4545/CSE_151A/blob/main/CSE_151A_Project.ipynb#scrollTo=cbaShJfW5Iwj)
 
 ## Group Members 
 Dhaivat Pachchigar
@@ -87,6 +87,7 @@ To enhance the model's performance, we could consider several strategies. Firstl
 
 ### Our Third model:-
 - First, we thought we would run Decision trees, but after carefull consideration from all group members, we have decided to go with SVM. Since, they are good for binary classification and we also have binary classification problem. 
+
 
 ### Result (Final Milestone part D)
 
@@ -201,4 +202,5 @@ The F1-score value for class 0 is 0.90 while the F1-score value for class 1 is 0
 The accuracy of the training data for this model is 0.81
 
 The model will move toward the underfitting in the fitting graph.
+=======
 

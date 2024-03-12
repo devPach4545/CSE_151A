@@ -135,7 +135,7 @@ The MSE for validation data is 0.010943060498220641
 
 From the confusion matrix: the value for true negative is 13868, the value of false positive is 31, the value for false negative is 117 and the value for true positive is 34
 
-The model will toward the underfitting in the fitting graph.
+The model will lean toward the underfitting in the fitting graph because the precision/recall for the training and testing data is too low.
 
 
 **For model 2, neural network:**
@@ -160,7 +160,7 @@ The accuracy of the training data for this model is 0.99
 
 From the confusion matrix: the value for true negative is 13868, the value of false positive is 31, the value for false negative is 117 and the value for true positive is 34
 
-The model will toward the underfitting in the fitting graph.
+The model will lean toward the underfitting in the fitting graph because the precision/recall for the training and testing data is too low.
 
 
 **For Model 3: Linear SVM**
@@ -201,6 +201,6 @@ The F1-score value for class 0 is 0.90 while the F1-score value for class 1 is 0
 
 The accuracy of the training data for this model is 0.81
 
-The model will move toward the underfitting in the fitting graph.
-=======
+The model will lean toward the underfitting in the fitting graph because the precision/recall for the training and testing data is too low.
+
 

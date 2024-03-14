@@ -108,9 +108,15 @@ The F1-score value for class 0 is 0.99 while the F1-score value for class 1 is 0
 
 The accuracy of the training data for this model is 0.99
 
+![image](https://github.com/devPach4545/CSE_151A/assets/146885173/e0f89d5a-cefa-48e6-b941-1f9984e45ae6)
+
+
 The MSE for training data is 0.011009786476868327
 
 From the confusion matrix: the value for true negative is 44345, the value of false positive is 89, the value for false negative is 406 and the value for true positive is 120
+
+![image](https://github.com/devPach4545/CSE_151A/assets/146885173/3966541f-a25f-41ba-8a54-21747e5310dd)
+
 
 **From the classification report for testing data:**
 
@@ -122,9 +128,15 @@ The F1-score value for class 0 is 0.99 while the F1-score value for class 1 is 0
 
 The accuracy of the training data for this model is 0.99
 
+![image](https://github.com/devPach4545/CSE_151A/assets/146885173/ca5b781d-21d7-4160-b565-cc836d425d16)
+
+
 The MSE for testing data is 0.010533807829181495
 
 From the confusion matrix: the value for true negative is 13868, the value for false positive is 31, the value for false negative is 117 and the value for true positive is 34
+
+![image](https://github.com/devPach4545/CSE_151A/assets/146885173/e131a5b2-d417-493a-80f2-bdb8addccdd3)
+
 
 **From the classification report for validation data:**
 
@@ -136,11 +148,20 @@ The F1-score value for class 0 is 0.99 while the F1-score value for class 1 is 0
 
 The accuracy of the training data for this model is 0.99
 
+![image](https://github.com/devPach4545/CSE_151A/assets/146885173/76220da3-b1ac-495b-8963-42b0ea6ea5e3)
+
+
 The MSE for validation data is 0.010943060498220641
 
 From the confusion matrix: the value for true negative is 13868, the value of false positive is 31, the value for false negative is 117 and the value for true positive is 34
 
+![image](https://github.com/devPach4545/CSE_151A/assets/146885173/efe0d68b-e23c-4a50-8bf2-a3d16076e328)
+
+
 The model will lean toward the underfitting in the fitting graph because the precision/recall for the training and testing data is too low.
+
+![image](https://github.com/devPach4545/CSE_151A/assets/146885173/9bc39d3e-f236-4a1b-9845-c6c7217de00c)
+
 
 **Conclusion section: What is the conclusion of your 1st model? What can be done to possibly improve it?**
 
@@ -156,13 +177,19 @@ From the classification report for both training and testing data, the precision
 
 
 ### Model 2 (Neural Networks) - Result
-The value for training loss is 0.0408 while the training accuracy is 0.9893
+The value for training loss is 0.0494 while the training accuracy is 0.9892
 
-The value for testing loss is 0.0412 while the testing accuracy is 0.99
+The value for testing loss is 0.0487 while the testing accuracy is 0.9898
 
-The difference in loss is 0.0004 and the difference in accuracy is 0.0006
+The difference in loss is 0.0007 and the difference in accuracy is 0.0006
 
-The best value for val_loss is 0.04218614101409912
+The best value for val_loss is 0.04227360710501671
+
+![image](https://github.com/devPach4545/CSE_151A/assets/146885173/98c1b0ad-1c8d-4f58-ab7e-91fd7ffb25bd)
+
+
+![image](https://github.com/devPach4545/CSE_151A/assets/146885173/88ee249f-8eab-4980-a155-1d4bbd5971fa)
+
 
 **From the classification report for training data:**
 
@@ -174,9 +201,18 @@ The F1-score value for class 0 is 0.99 while the F1-score value for class 1 is 0
 
 The accuracy of the training data for this model is 0.99
 
-From the confusion matrix: the value for true negative is 13868, the value of false positive is 31, the value for false negative is 117 and the value for true positive is 34
+![image](https://github.com/devPach4545/CSE_151A/assets/146885173/d462a541-b044-4418-afa3-b4bea5f50fc2)
+
+
+From the confusion matrix: the value for true negative is 13896, the value of false positive is 3, the value for false negative is 144 and the value for true positive is 7
+
+![image](https://github.com/devPach4545/CSE_151A/assets/146885173/2494d38c-e725-42cf-a474-dd8f453e01cf)
+
 
 The model will lean toward the underfitting in the fitting graph because the precision/recall for the training and testing data is too low.
+
+![image](https://github.com/devPach4545/CSE_151A/assets/146885173/637f04a2-5030-4ef8-b373-c2bf1361d0ca)
+
 
 **Conclusion section (Milestone 4 and model 2): What is the conclusion of your 2nd model? What can be done to possibly improve it? How did it perform to your first and why?**
 - After running neural network we got the accuracy of 0.98, precisionn of 0.531, and, recall of 0.225. It seems that our model has a lot of true negatives (13869) with compare to true positives only 34. Neural network did not provide a significant improvemnet over logistic regression because our model 1 got the accuracy of 0.98 as well. Both of our models identified same number of true negatives. We are thinking about oversampling the data to get rid of class imbalance.
@@ -192,9 +228,15 @@ The F1-score value for class 0 is 0.86 while the F1-score value for class 1 is 0
 
 The accuracy of the training data for this model is 0.87
 
+![image](https://github.com/devPach4545/CSE_151A/assets/146885173/b5477869-f25e-4136-8fd7-0639b93c1404)
+
+
 The MSE for training data is 0.1303
 
-From the confusion matrix: the value for true negative is 36018, the value of false positive is 8416, the value for false negative is 3165 and the value for true positive is 41269
+From the confusion matrix: the value for true negative is 36127, the value of false positive is 8307, the value for false negative is 3147 and the value for true positive is 41287
+
+![image](https://github.com/devPach4545/CSE_151A/assets/146885173/ca127853-82cb-4617-b20f-5982b1432fd3)
+
 
 **From the classification report for testing data:**
 
@@ -205,9 +247,15 @@ The F1-score value for class 0 is 0.90 while the F1-score value for class 1 is 0
 
 The accuracy of the training data for this model is 0.81
 
+![image](https://github.com/devPach4545/CSE_151A/assets/146885173/437a41f1-ff44-4b76-a5c2-e578362b130b)
+
+
 The MSE for testing data is 0.1875
 
 From the confusion matrix: the value for true negative is 11291, the value of false positive is 2608, the value for false negative is 26 and the value for true positive is 125
+
+![image](https://github.com/devPach4545/CSE_151A/assets/146885173/e57afba6-5d0a-4aa9-8748-9efad25dcc6b)
+
 
 **From the classification report for validation data:**
 
@@ -218,7 +266,12 @@ The F1-score value for class 0 is 0.90 while the F1-score value for class 1 is 0
 
 The accuracy of the training data for this model is 0.81
 
+![image](https://github.com/devPach4545/CSE_151A/assets/146885173/0cc11033-7cfb-4051-8f6b-6777ae2fb40b)
+
+
 The model will lean toward the underfitting in the fitting graph because the precision/recall for the training and testing data is too low.
+
+![image](https://github.com/devPach4545/CSE_151A/assets/146885173/39ac8af2-ab69-4216-b3f7-3a4e96a500b9)
 
 
 ## Discussion

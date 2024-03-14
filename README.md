@@ -271,7 +271,7 @@ The accuracy of the training data for this model is 0.82
 ![image](https://github.com/devPach4545/CSE_151A/assets/146885173/0cc11033-7cfb-4051-8f6b-6777ae2fb40b)
 
 
-The model will lean toward the underfitting in the fitting graph because the value of precision in the testing data is too low.
+The model will lean a bit toward the underfitting in the fitting graph because the value of precision in the testing data is too low.
 
 ![image](https://github.com/devPach4545/CSE_151A/assets/146885173/39ac8af2-ab69-4216-b3f7-3a4e96a500b9)
 

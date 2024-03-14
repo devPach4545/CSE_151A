@@ -58,6 +58,8 @@ Normalization is crucial for ensuring that features with different scales do not
 3. Normalization: Numerical features will be normalized to a standard range for optimal model performance.
 
 By completing these preprocessing steps, the dataset will be ready for training machine learning models, ensuring that it is appropriately formatted and scaled for accurate and reliable predictions.
+## Finalized dataframe: 
+![image](https://github.com/devPach4545/CSE_151A/assets/117800801/3a1881b6-904b-48cd-86cf-69346bf1612b)
 
 ### Model 1 - Logistic Classification
 - **Overview**: 

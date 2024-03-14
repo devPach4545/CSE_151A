@@ -60,7 +60,21 @@ Normalization is crucial for ensuring that features with different scales do not
 By completing these preprocessing steps, the dataset will be ready for training machine learning models, ensuring that it is appropriately formatted and scaled for accurate and reliable predictions.
 ## Finalized dataframe: 
 ![image](https://github.com/devPach4545/CSE_151A/assets/117800801/3a1881b6-904b-48cd-86cf-69346bf1612b)
-
+### Description for the columns
+- 'Citation': This column indicates whether a citation or ticket was issued for the incident.
+- 'SERO': This column refers to some specific type of incident or report.
+- 'Warning': This column indicates if a warning was given instead of a citation.
+- Columns with race categories ('ASIAN', 'BLACK', 'HISPANIC', 'NATIVE AMERICAN', 'OTHER', 'WHITE'): These columns represent different racial groups and are used to record the race of the individuals involved in the incident.
+- Columns with state abbreviations ('AB', 'AK', 'AL', ..., 'XX'): These columns represent different states or provinces and are used to record the state or province where the incident occurred or where the individuals involved are from.
+- Columns with 'Driver.State_' and 'DL.State_' prefixes: These columns represent the state or province associated with the driver's license or state of residence for the driver involved in the incident.
+- Columns with 'F' and 'M': These columns represent the gender of the individuals involved, with 'F' for female and 'M' for male.
+- 'Belts_No' and 'Belts_Yes': These columns indicate whether seat belts were used or not during the incident.
+- 'Contributed.To.Accident_No' and 'Contributed.To.Accident_Yes': These columns indicate whether the individual(s) contributed to the accident or not.
+- 'Commercial.License_No' and 'Commercial.License_Yes': These columns indicate whether the driver involved had a commercial driver's license or not.
+- 'Commercial.Vehicle_No' and 'Commercial.Vehicle_Yes': These columns represent whether the vehicle involved was a commercial vehicle or not.
+- 'Columns with 'VehicleType_' prefix: These columns represent different types of vehicles involved in the incident, such as motorcycles, automobiles, trucks, buses, and others.
+- 'Property.Damage_No' and 'Property.Damage_Yes': These columns indicate whether there was property damage or not as a result of the incident.
+- 'Personal_injury': This column indicates whether there were any personal injuries sustained during the incident.
 ### Model 1 - Logistic Classification
 - **Overview**: 
 A logistic classification could be a good start for this project and serves as a baseline model for the rest of the project. It is designed well for classification tasks, especially binary classification tasks like the one we have in this project due to the sigmoid function behind the scene. It is also a model with relatively simple underlying structure, so it is worth trying how well it could capture the relationships within the dataset so that we can gradually improve on later models based on the result from a simplier model.

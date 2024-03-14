@@ -193,11 +193,11 @@ The best value for val_loss is 0.04227360710501671
 
 **From the classification report for training data:**
 
-The precision value for class 0 is 0.99 while the precision value for class 1 is 0.77
+The precision value for class 0 is 0.99 while the precision value for class 1 is 0.81
 
-The recall value for class 0 is 1 while the value for class 1 is only 0.13
+The recall value for class 0 is 1 while the value for class 1 is only 0.10
 
-The F1-score value for class 0 is 0.99 while the F1-score value for class 1 is 0.22
+The F1-score value for class 0 is 0.99 while the F1-score value for class 1 is 0.19
 
 The accuracy of the training data for this model is 0.99
 
@@ -241,11 +241,12 @@ From the confusion matrix: the value for true negative is 36127, the value of fa
 **From the classification report for testing data:**
 
 The precision value for class 0 is 1 while the precision value for class 1 is 0.05
-The recall value for class 0 is 0.81 while the value for class 1 is only 0.80
+
+The recall value for class 0 is 0.82 while the value for class 1 is only 0.81
 
 The F1-score value for class 0 is 0.90 while the F1-score value for class 1 is 0.09 
 
-The accuracy of the training data for this model is 0.81
+The accuracy of the training data for this model is 0.82
 
 ![image](https://github.com/devPach4545/CSE_151A/assets/146885173/437a41f1-ff44-4b76-a5c2-e578362b130b)
 
@@ -260,16 +261,17 @@ From the confusion matrix: the value for true negative is 11291, the value of fa
 **From the classification report for validation data:**
 
 The precision value for class 0 is 1 while the precision value for class 1 is 0.05
-The recall value for class 0 is 0.81 while the value for class 1 is only 0.80
+
+The recall value for class 0 is 0.82 while the value for class 1 is only 0.80
 
 The F1-score value for class 0 is 0.90 while the F1-score value for class 1 is 0.09 
 
-The accuracy of the training data for this model is 0.81
+The accuracy of the training data for this model is 0.82
 
 ![image](https://github.com/devPach4545/CSE_151A/assets/146885173/0cc11033-7cfb-4051-8f6b-6777ae2fb40b)
 
 
-The model will lean toward the underfitting in the fitting graph because the precision/recall for the training and testing data is too low.
+The model will lean toward the underfitting in the fitting graph because the value of precision in the testing data is too low.
 
 ![image](https://github.com/devPach4545/CSE_151A/assets/146885173/39ac8af2-ab69-4216-b3f7-3a4e96a500b9)
 

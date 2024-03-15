@@ -26,7 +26,7 @@ Christopherian Austin Sulaiman
 Uyen Le
 
 ## Project Introduction
-Add content here...
+We chose to work on this project in large part due to how much of an impact car accidents have in our society, as it is the leading cause of death for people aged 1-54 in the United States. The purpose of our project was to create a model that could predict when the likelihood of a personal injury is higher based on the accident's details. We decided to score our models' success primarily on recall, as the vast majority of accidents do not lead to an injury. Also, we would much rather have our model incorrectly predict an injury when there isn't one, compared to incorrectly predicting no injury when there is one. With a good predictive model, we would be able to better investigate the patterns behind injuries in car accidents in order to hopefully discover what can be done to lower the risk of these injuries happening.
 
 ## Methods Overview
 ### Data Exploration

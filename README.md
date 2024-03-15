@@ -340,11 +340,11 @@ All group members participated in the discussion of the project and contribute t
 *Team Leader*
 
 - Led the team by giving everyone clear tasks, so we all worked well together.
-- Managed the initial data work by changing categories into numbers for better analysis.
+- Managed the initial data work by doing one-hot encoding and came up with the final dataset so we can train all the models.
 - Made sure all the data was ready to use for our models.
 - Kept everything organized in our project notes.
 - Took the lead in finding the data we needed, which helped make our project successful.
-- Wrote the discussion part for the final milestone
+- Wrote the discussion part for the final milestone.
   
 2. Rushil Mohandas
 

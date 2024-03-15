@@ -354,7 +354,7 @@ All group members participated in the discussion of the project and contribute t
 
 5. Eyaad: Created Abstract and Introduction, performed categorical encoding, and initialized and trained the neural network (model 2).
 
-6. Peeyush Jha
+6. Peeyush Jha: Helped find dataset, wrote introduction, built model 3, did categorical encoding for cities, pasted graphical pictures in readme file
 
 7. Hoang Le: data cleaning, encoding part of the data, and wrote the Results for 3 models and where the model fit in the fitting graph for model 2.
 

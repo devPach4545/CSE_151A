@@ -30,17 +30,24 @@ We chose to work on this project in large part due to how much of an impact car 
 
 ## Methods Overview
 ### Data Exploration
+Before conducting data preprocessing and train the models, it is crucial to get an understanding of the distribution and characteristics of features in the dataset first so that it can be processed in a way that assist how the model gets trained later. Below are some of the exploration we conducted on columns of the original dataset.
 ![image](https://github.com/devPach4545/CSE_151A/assets/122563528/5f774ace-bc17-4e05-a23e-e690680b5afe)
+> In the 'Violation.Type' feature column, we found that the majority of violation records are warnings or citation, with only a few observations of serious violation. 
 ![image](https://github.com/devPach4545/CSE_151A/assets/122563528/5fed0ea6-feaa-4a04-a73e-22fae0eeb3f2)
+> In the 'Gender' column, it is observed that over 67% of the observations of traffic violations have male drivers, and around 32% of the drivers are female.
 ![image](https://github.com/devPach4545/CSE_151A/assets/122563528/3f284503-5c03-4ac3-94c7-7d657e0791bc)
+> To reduce the effect of outliers, we zoomed in on years after 1900 when examine the distribution of the years when the violations took place and were recorded. The result shows that most violation observed in this dataset is clustered around recent decades, especailly around late 1990s and early 2000s, roughly normally distributed.
 ![image](https://github.com/devPach4545/CSE_151A/assets/122563528/4305d447-85d9-4b81-8f09-7092a86b7356)
+> This figure examine the relationship between the producing brand of the vehicle and the change of personal injury in traffic accident caused by violations (the target of our prediction). We found that certain producing brands tend to have higher chances in having person injured in accident than others. This suggests that the producing brand of cars can be a useful feature that provide information for our model's prediction.
 ![image](https://github.com/devPach4545/CSE_151A/assets/122563528/6bacc447-56ec-4e74-9400-028fbc60de85)
+> Similarly, the relationship between person injured in violation record and the model type of the vehicle is also examined in the plot above by counting the number of injury in records for each model. Some of the models that has higher number of injury instances are also among the brands that has relatively hige rate of injury. Hence, it is worth taking into account the model type when training the models.
 
-Add content here...
 
 ### Data Preprocessing
 - <b>Data Imputation</b>:
-After a rigorous data cleaning and exploratory data analysis, we move on to the data preprocessing stage. The dataset has undergone data imputation to address missing values in columns such as 'State', 'Year', 'Make', 'Model', 'Color', 'Driver.City', and 'DL.State'. The imputation was performed using random sampling and taking the median of the respective columns.
+After a rigorous data cleaning and exploratory data analysis, we move on to the data preprocessing stage. The dataset has undergone data imputation to address missing values in columns such as 'State', 'Year', 'Make', 'Model', 'Color', 'Driver.City', and 'DL.State'. The details for those missing values are shown below.
+![alt text](./img/missing.png)
+The imputation was performed using random sampling with the frequency of unique labels taken into account, and taking the median of the respective columns. This is because from analyzing those columns' distribution through `value_counts`, most of the data are centered around a few very frequently appearing labels, and a few are from others.
 - <b>Handling Categorical Variables</b>:
 To prepare the data for machine learning models, encoding is required, particularly for categorical variables. The dataset contains various categorical features such as Yes/No indicators and non-comparable features like the names of car companies. We'll apply the following strategies for encoding:
 
@@ -52,6 +59,8 @@ To prepare the data for machine learning models, encoding is required, particula
 
 - <b>Normalization Scaling</b>:
 Normalization is crucial for ensuring that features with different scales do not unduly influence the machine learning model. We will apply normalization to scale numerical features to a standard range, typically between 0 and 1. This step enhances the performance and convergence of machine learning algorithms.
+![alt text](./img/pca1.png)
+> This normalization step is chosen because like this plot for distribution of values in PCA1 of Description column shown above, many columns in our resulting dataframe does not follow a normal distribution.
 
 **Summary of Data Preprocessing Steps:**
 
@@ -332,9 +341,9 @@ All group members participated in the discussion of the project and contribute t
 
 - Peeyush Jha
 
-- Hoang Le: I did the data preprocessing, encoding parts of the data, and wrote the Results for 3 models.
+- Hoang Le: data preprocessing, encoding parts of the data, and wrote the Results for 3 models.
 
-- Feiyang Jiang
+- Feiyang Jiang: data imputation, column encoding, hyperparameter tuning and cross validation for model 1 and 2, and wrote the conclusion.
 
 - Christopherian Austin Sulaiman
 

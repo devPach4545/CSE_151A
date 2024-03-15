@@ -326,7 +326,7 @@ All group members participated in the discussion of the project and contribute t
 
 - Peeyush Jha
 
-- Hoang Le
+- Hoang Le: I did the data preprocessing, encoding parts of the data, and wrote the Results for 3 models.
 
 - Feiyang Jiang
 

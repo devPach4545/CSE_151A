@@ -30,6 +30,12 @@ We chose to work on this project in large part due to how much of an impact car 
 
 ## Methods Overview
 ### Data Exploration
+![image](https://github.com/devPach4545/CSE_151A/assets/122563528/5f774ace-bc17-4e05-a23e-e690680b5afe)
+![image](https://github.com/devPach4545/CSE_151A/assets/122563528/5fed0ea6-feaa-4a04-a73e-22fae0eeb3f2)
+![image](https://github.com/devPach4545/CSE_151A/assets/122563528/3f284503-5c03-4ac3-94c7-7d657e0791bc)
+![image](https://github.com/devPach4545/CSE_151A/assets/122563528/4305d447-85d9-4b81-8f09-7092a86b7356)
+![image](https://github.com/devPach4545/CSE_151A/assets/122563528/6bacc447-56ec-4e74-9400-028fbc60de85)
+
 Add content here...
 
 ### Data Preprocessing

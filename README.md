@@ -354,4 +354,5 @@ All group members participated in the discussion of the project and contribute t
 
 - Christopherian Austin Sulaiman
 
-- Uyen Le
+- Uyen Le: Data cleaning, encoding one of the attributes, doing validation split, building model 3 (find where the model fits in the fitting graph and compare to other models)
+  

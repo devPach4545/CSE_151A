@@ -348,7 +348,7 @@ All group members participated in the discussion of the project and contribute t
 
 - Peeyush Jha
 
-- Hoang Le: data preprocessing, encoding parts of the data, and wrote the Results for 3 models.
+- Hoang Le: data preprocessing, encoding parts of the data, and wrote the Results for 3 models and where the model fit in the fitting graph for model 2.
 
 - Feiyang Jiang: data imputation, column encoding, hyperparameter tuning and cross validation for model 1 and 2, and wrote the conclusion.
 

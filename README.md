@@ -348,11 +348,11 @@ All group members participated in the discussion of the project and contribute t
 
 - Peeyush Jha
 
-- Hoang Le: data preprocessing, encoding parts of the data, and wrote the Results for 3 models and where the model fit in the fitting graph for model 2.
+- Hoang Le: data cleaning, encoding part of the data, and wrote the Results for 3 models and where the model fit in the fitting graph for model 2.
 
 - Feiyang Jiang: data imputation, column encoding, hyperparameter tuning and cross validation for model 1 and 2, and wrote the conclusion.
 
 - Christopherian Austin Sulaiman
 
-- Uyen Le: Data cleaning, encoding one of the attributes, doing validation split, building model 3 (find where the model fits in the fitting graph and compare to other models)
+- Uyen Le: Data cleaning, encoding one of the attributes, doing validation split, building model 3 (including find where the model fits in the fitting graph and compare to other models)
   

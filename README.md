@@ -352,7 +352,7 @@ All group members participated in the discussion of the project and contribute t
 
 4. Vincent Vo
 
-5. Eyaad
+5. Eyaad: Created Abstract and Introduction, performed categorical encoding, and initialized and trained the neural network (model 2).
 
 6. Peeyush Jha
 

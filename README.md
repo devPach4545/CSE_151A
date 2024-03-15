@@ -110,6 +110,7 @@ The accuracy of the training data for this model is 0.99
 
 ![image](https://github.com/devPach4545/CSE_151A/assets/146885173/e0f89d5a-cefa-48e6-b941-1f9984e45ae6)
 
+> The classification report for the training dataset. The report will summarize the performance of the model on the dataset.
 
 The MSE for training data is 0.011009786476868327
 
@@ -117,6 +118,7 @@ From the confusion matrix: the value for true negative is 44345, the value of fa
 
 ![image](https://github.com/devPach4545/CSE_151A/assets/146885173/3966541f-a25f-41ba-8a54-21747e5310dd)
 
+> The confusion matrix of the training dataset. It is a table and will print out the value of true positive, true negative, false positive and false negative. 
 
 **From the classification report for testing data:**
 
@@ -130,6 +132,7 @@ The accuracy of the training data for this model is 0.99
 
 ![image](https://github.com/devPach4545/CSE_151A/assets/146885173/ca5b781d-21d7-4160-b565-cc836d425d16)
 
+> The classification report for the testing dataset. The report will summarize the performance of the model on the dataset.
 
 The MSE for testing data is 0.010533807829181495
 
@@ -137,6 +140,7 @@ From the confusion matrix: the value for true negative is 13868, the value for f
 
 ![image](https://github.com/devPach4545/CSE_151A/assets/146885173/e131a5b2-d417-493a-80f2-bdb8addccdd3)
 
+> The confusion matrix of the testing dataset. It is a table and will print out the value of true positive, true negative, false positive and false negative. 
 
 **From the classification report for validation data:**
 
@@ -150,6 +154,7 @@ The accuracy of the training data for this model is 0.99
 
 ![image](https://github.com/devPach4545/CSE_151A/assets/146885173/76220da3-b1ac-495b-8963-42b0ea6ea5e3)
 
+> The classification report for the validation dataset. The report will summarize the performance of the model on the dataset.
 
 The MSE for validation data is 0.010943060498220641
 
@@ -157,11 +162,13 @@ From the confusion matrix: the value for true negative is 13868, the value of fa
 
 ![image](https://github.com/devPach4545/CSE_151A/assets/146885173/efe0d68b-e23c-4a50-8bf2-a3d16076e328)
 
+> The confusion matrix of the validation dataset. It is a table and will print out the value of true positive, true negative, false positive and false negative. 
 
 The model will lean toward the underfitting in the fitting graph because the precision/recall for the training and testing data is too low.
 
 ![image](https://github.com/devPach4545/CSE_151A/assets/146885173/9bc39d3e-f236-4a1b-9845-c6c7217de00c)
 
+> Precision, recall curve for logistic regression. The graph represents the trade-off between precision and recall of a model for different values. 
 
 **Conclusion section: What is the conclusion of your 1st model? What can be done to possibly improve it?**
 
@@ -203,16 +210,19 @@ The accuracy of the training data for this model is 0.99
 
 ![image](https://github.com/devPach4545/CSE_151A/assets/146885173/d462a541-b044-4418-afa3-b4bea5f50fc2)
 
+> The classification report for the training dataset. The report will summarize the performance of the model on the dataset.
 
-From the confusion matrix: the value for true negative is 13896, the value of false positive is 3, the value for false negative is 144 and the value for true positive is 7
+From the confusion matrix of testing data: the value for true negative is 13896, the value of false positive is 3, the value for false negative is 144 and the value for true positive is 7
 
 ![image](https://github.com/devPach4545/CSE_151A/assets/146885173/2494d38c-e725-42cf-a474-dd8f453e01cf)
 
+> The confusion matrix of the testing dataset. It is a table and will print out the value of true positive, true negative, false positive and false negative.
 
 The model will lean toward the underfitting in the fitting graph because the precision/recall for the training and testing data is too low.
 
 ![image](https://github.com/devPach4545/CSE_151A/assets/146885173/637f04a2-5030-4ef8-b373-c2bf1361d0ca)
 
+> Precision, recall curve for neural network. The graph represents the trade-off between precision and recall of a model for different values of testing data. 
 
 **Conclusion section (Milestone 4 and model 2): What is the conclusion of your 2nd model? What can be done to possibly improve it? How did it perform to your first and why?**
 - After running neural network we got the accuracy of 0.98, precisionn of 0.531, and, recall of 0.225. It seems that our model has a lot of true negatives (13869) with compare to true positives only 34. Neural network did not provide a significant improvemnet over logistic regression because our model 1 got the accuracy of 0.98 as well. Both of our models identified same number of true negatives. We are thinking about oversampling the data to get rid of class imbalance.
@@ -230,6 +240,7 @@ The accuracy of the training data for this model is 0.87
 
 ![image](https://github.com/devPach4545/CSE_151A/assets/146885173/b5477869-f25e-4136-8fd7-0639b93c1404)
 
+> The classification report for the training dataset. The report will summarize the performance of the model on the dataset.
 
 The MSE for training data is 0.1303
 
@@ -237,6 +248,7 @@ From the confusion matrix: the value for true negative is 36127, the value of fa
 
 ![image](https://github.com/devPach4545/CSE_151A/assets/146885173/ca127853-82cb-4617-b20f-5982b1432fd3)
 
+> The confusion matrix of the training dataset. It is a table and will print out the value of true positive, true negative, false positive and false negative. 
 
 **From the classification report for testing data:**
 
@@ -250,6 +262,7 @@ The accuracy of the training data for this model is 0.82
 
 ![image](https://github.com/devPach4545/CSE_151A/assets/146885173/437a41f1-ff44-4b76-a5c2-e578362b130b)
 
+> The classification report for the testing dataset. The report will summarize the performance of the model on the dataset.
 
 The MSE for testing data is 0.1875
 
@@ -257,6 +270,7 @@ From the confusion matrix: the value for true negative is 11291, the value of fa
 
 ![image](https://github.com/devPach4545/CSE_151A/assets/146885173/e57afba6-5d0a-4aa9-8748-9efad25dcc6b)
 
+> The confusion matrix of the testing dataset. It is a table and will print out the value of true positive, true negative, false positive and false negative. 
 
 **From the classification report for validation data:**
 
@@ -270,11 +284,13 @@ The accuracy of the training data for this model is 0.82
 
 ![image](https://github.com/devPach4545/CSE_151A/assets/146885173/0cc11033-7cfb-4051-8f6b-6777ae2fb40b)
 
+> The classification report for the validation dataset. The report will summarize the performance of the model on the dataset.
 
 The model will lean a bit toward the underfitting in the fitting graph because the value of precision in the testing data is too low.
 
 ![image](https://github.com/devPach4545/CSE_151A/assets/146885173/39ac8af2-ab69-4216-b3f7-3a4e96a500b9)
 
+> Precision, recall curve for linear SVM. The graph represents the trade-off between precision and recall of a model for different values. 
 
 ## Discussion
 ### Model 1: Logistic Regression

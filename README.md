@@ -336,23 +336,31 @@ As for other possibilities that is worth trying in future studies, we can also c
 ## Collaboration
 All group members participated in the discussion of the project and contribute to different parts of the project actively. Below is the detailed list of tasks each member contributed to.
 
-- Dhaivat Pachchigar
+1. Dhaivat Pachchigar:
+*Team Leader*
 
-- Rushil Mohandas
+- Led the team by giving everyone clear tasks, so we all worked well together.
+- Managed the initial data work by changing categories into numbers for better analysis.
+- Made sure all the data was ready to use for our models.
+- Kept everything organized in our project notes.
+- Took the lead in finding the data we needed, which helped make our project successful.
+- Wrote the discussion part for the final milestone
+  
+2. Rushil Mohandas
 
-- Christophian Austin Sulaiman
+3. Christophian Austin Sulaiman
 
-- Vincent Vo
+4. Vincent Vo
 
-- Eyaad
+5. Eyaad
 
-- Peeyush Jha
+6. Peeyush Jha
 
-- Hoang Le: data cleaning, encoding part of the data, and wrote the Results for 3 models and where the model fit in the fitting graph for model 2.
+7. Hoang Le: data cleaning, encoding part of the data, and wrote the Results for 3 models and where the model fit in the fitting graph for model 2.
 
-- Feiyang Jiang: data imputation, column encoding, hyperparameter tuning and cross validation for model 1 and 2, and wrote the conclusion.
+8. Feiyang Jiang: data imputation, column encoding, hyperparameter tuning and cross validation for model 1 and 2, and wrote the conclusion.
 
-- Christopherian Austin Sulaiman
+9. Christopherian Austin Sulaiman
 
-- Uyen Le: Data cleaning, encoding one of the attributes, doing validation split, building model 3 (including find where the model fits in the fitting graph and compare to other models)
+10. Uyen Le: Data cleaning, encoding one of the attributes, doing validation split, building model 3 (including find where the model fits in the fitting graph and compare to other models)
   

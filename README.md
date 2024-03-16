@@ -350,7 +350,7 @@ All group members participated in the discussion of the project and contribute t
 
 3. Christophian Austin Sulaiman: Helped find dataset, encoded some columns for the data, worked on conclusion, Model fitting (Determine whether model fits on graph), plotting graph with legend for the models.
 
-4. Vincent Vo
+4. Vincent Vo: Ran through the data exploration, performed categorical encoding, and did results B and C of milestone 5. 
 
 5. Eyaad: Created Abstract and Introduction, performed categorical encoding, and initialized and trained the neural network (model 2).
 

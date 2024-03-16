@@ -346,7 +346,7 @@ All group members participated in the discussion of the project and contribute t
 - Took the lead in finding the data we needed, which helped make our project successful.
 - Wrote the discussion part for the final milestone.
   
-2. Rushil Mohandas
+2. Rushil Mohandas: Helped find data sets, wrote abstract and introduction, preformed categorical encoding, data exploration, evaluated model.
 
 3. Christophian Austin Sulaiman: Helped find dataset, encoded some columns for the data, worked on conclusion, Model fitting (Determine whether model fits on graph), plotting graph with legend for the models.
 

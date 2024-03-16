@@ -348,7 +348,7 @@ All group members participated in the discussion of the project and contribute t
   
 2. Rushil Mohandas
 
-3. Christophian Austin Sulaiman
+3. Christophian Austin Sulaiman: Helped find dataset, encoded some columns for the data, worked on conclusion, plotting graph with legend for the models.
 
 4. Vincent Vo
 

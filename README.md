@@ -360,7 +360,7 @@ All group members participated in the discussion of the project and contribute t
 
 8. Feiyang Jiang: data imputation, column encoding, hyperparameter tuning and cross validation for model 1 and 2, and wrote the conclusion.
 
-9. Christopherian Austin Sulaiman
+9. Christopherian Austin Sulaiman: Assisted in finding the dataset, assisted in Preprocessing the data, Encoding data (helped encoded violations with oneHotEncoding), Comparing between the models we created, creating a conclusion for which model is best, built logreg model, and plotted results.
 
 10. Uyen Le: Data cleaning, encoding one of the attributes, doing validation split, building model 3 (including find where the model fits in the fitting graph and compare to other models)
   
